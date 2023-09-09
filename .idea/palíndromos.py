@@ -11,7 +11,7 @@ def es_palindromo(numero):
 
 
 numero = input("Ingrese un numero: ")
-
+numero= int(numero_str)
 if es_palindromo(numero):
     print(numero, "es palindromo")
 else:
